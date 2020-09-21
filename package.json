@@ -1,0 +1,52 @@
+{
+  "name": "curso-platzi-react-avanzado-parallel",
+  "version": "1.0.0",
+  "description": "Repositorio con el código del Curso Avanzado de React de Platzi",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.0",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "intersection-observer": "^0.7.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.0",
+    "html-webpack-plugin": "^3.2.0",
+    "standard": "^12.0.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "now-build": "npm run build",
+    "lint": "standard",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/midudev/curso-platzi-react-avanzado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
